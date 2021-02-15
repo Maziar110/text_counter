@@ -1,9 +1,16 @@
 import glob
 import datetime
-from os import path
+import os
+
+path = os.path
 
 
 def text_counter():
+    try:
+        if not path.exists('result'):
+            os.mkdir('result')
+    except Exception as e:
+        print(e)
 
     try:
         for file in glob.glob('raw_files/*.txt'):

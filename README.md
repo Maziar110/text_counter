@@ -1,7 +1,7 @@
 # text_counter
 it counts the number of used words in sentences written in a text file.
 ## Usage:
-Sometimes you need to break texts into numbers to analyse them, for example if you want to now what subject a news(or someone's speech) is focused on  you can simply count the used words in the text then you can find the main purpose of speech based on the most used words.
+Sometimes you need to break texts into numbers to analyse them, for example if you want to know what subject a news(or someone's speech) is focused on  you can simply count the used words in the text then you can find the main purpose of speech based on the most used words.
 
 ## How to use this project:
 You can add `text_counter()` function in your project or you can simply run the project.
